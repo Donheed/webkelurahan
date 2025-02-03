@@ -3,9 +3,9 @@ import { Menu, X, ChevronLeft, ChevronRight, Phone, Mail, MapPin, Clock } from '
 
 // Slider images from Unsplash
 const sliderImages = [
-  '/image/foto1.jpg',
-  '/image/foto2.jpg',
-  '/image/foto3.jpg'
+  'https://github.com/Donheed/webkelurahan/blob/main/image/foto1.jpg?raw=true',
+  'https://github.com/Donheed/webkelurahan/blob/main/image/foto2.jpg?raw=true',
+  'https://github.com/Donheed/webkelurahan/blob/main/image/foto3.jpg?raw=true'
 ];
 
 function App() {
@@ -127,7 +127,7 @@ function App() {
           <div className="bg-white rounded-lg shadow-lg p-4 sm:p-6 md:p-8">
             <div className="flex flex-col md:flex-row items-center gap-4 sm:gap-6 md:gap-8">
               <img
-                src="/image/lurah1.jpg"
+                src="https://github.com/Donheed/webkelurahan/blob/main/image/lurah1.jpg?raw=true"
                 alt="Kepala Desa"
                 className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full object-cover"
               />
@@ -167,7 +167,7 @@ function App() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="aspect-video">
                 <img
-                  src="/image/pelayanan.jpg"
+                  src="https://github.com/Donheed/webkelurahan/blob/main/image/pelayanan.jpg?raw=true"
                   alt="Ruang Pelayanan"
                   className="w-full h-full object-cover"
                 />
@@ -180,7 +180,7 @@ function App() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="aspect-video">
                 <img
-                  src="/image/aula.jpg"
+                  src="https://github.com/Donheed/webkelurahan/blob/main/image/aula.jpg?raw=true"
                   alt="Aula Serbaguna"
                   className="w-full h-full object-cover"
                 />
